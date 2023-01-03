@@ -40,7 +40,7 @@ export default function Page({data}: PageProps<User | null>) {
       <Head>
         <title>Github</title>
       </Head>
-      <Menu/>gst
+      <Menu/>
       <h1 className="text-lg mb-5">This page uses URL params. Try <a href="god"
                                                                      className="underline">Example</a></h1>
       <div>
