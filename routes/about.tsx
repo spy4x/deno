@@ -33,6 +33,7 @@ export default function Page({data}: PageProps<User | null>) {
         <title>About</title>
       </Head>
       <Menu/>
+      <h1 class="text-lg mb-5">This page uses URL search params. Try <a href={'?username=god'} class="underline">Example</a></h1>
       <div>
         <img src={data.avatar_url} width={64} height={64}/>
         <h1>{data.name}</h1>

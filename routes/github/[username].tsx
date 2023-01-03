@@ -28,7 +28,9 @@ export default function Page({data}: PageProps<User | null>) {
           <title>Github</title>
         </Head>
         <Menu/>
-      <h1>User not found</h1>
+        <h1 className="text-lg mb-5">This page uses URL params. Try <a href="god"
+                                                                       className="underline">Example</a></h1>
+        <h1>User not found</h1>
       </>
     );
   }
@@ -38,7 +40,9 @@ export default function Page({data}: PageProps<User | null>) {
       <Head>
         <title>Github</title>
       </Head>
-      <Menu/>
+      <Menu/>gst
+      <h1 className="text-lg mb-5">This page uses URL params. Try <a href="god"
+                                                                     className="underline">Example</a></h1>
       <div>
         <img src={data.avatar_url} width={64} height={64}/>
         <h1>{data.name}</h1>
